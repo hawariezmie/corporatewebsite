@@ -1,0 +1,85 @@
+/* CSS-LAYOUT */
+
+/* Main layout*/
+.page {background-color:#E2D2ED;
+	width:80%;
+	margin:auto;
+	padding:10px;}
+
+
+/*style for body*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header section */
+.main-header {background-color:#A37FC1;}
+.social-sites li {display:inline-block;
+	position:relative;
+	left:820px;
+	top:-20px}
+
+/* Main section*/
+main {background-color:#ff66d9;
+		width:100%;
+		}		
+
+
+	
+
+/* Footer section */
+.main-footer {background-color:#765494;
+		clear:both;}
+
+
+
+/* navbar horizontal */
+
+/* Horizontal NaviBar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #eaeae1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #4080bf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+
+.post-blurb {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.post-blurb2 {
+  display: block;
+  color: black;
+  padding: 20px 60px;
+  text-decoration: none;
+}
+
